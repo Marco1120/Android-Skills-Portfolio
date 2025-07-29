@@ -12,6 +12,11 @@
 ### Tipo de sistema:
 Proyecto Móvil Java
 
-
+##
 ## EJERCICIOS INCLUIDOS
 
+
+## REQUISITOS TECNICOS 
+
+
+## OBSERVACIONES
