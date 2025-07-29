@@ -7,7 +7,7 @@
 - Cruz Gutierrez Jonathan René - [JonathanRene](https://github.com/JonathanRene)
 
 ### ¿Qué hace el sistema?
-Este sistema esta diseñado utilizando un login en Android para ingresar, al ingresar al sistema habrán distintos botonoes los cuales nos redireccionarán a diferentes ejercicios antes vistos en la unidad 1 de la materia de Tópicos Avanzados de Programación, solo que en este caso usando Android Studio.
+Este sistema fue creado en Android Studio e inicia con una pantalla de login para acceder de forma segura. Al ingresar, se muestra un menú con botones que llevan a distintos ejercicios de la Unidad 1 de Tópicos Avanzados de Programación. Estos ejercicios fueron adaptados para funcionar en un entorno Android, usando interfaces móviles.
 
 ### Tipo de sistema:
 Proyecto Móvil Java
