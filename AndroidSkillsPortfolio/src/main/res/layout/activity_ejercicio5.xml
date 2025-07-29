@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    android:padding="24dp"
+    tools:context=".Ejercicio5Activity">
+
+    <TextView
+        android:id="@+id/tvDescripcion5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 5: Ingresa las notas de los tres trimestres y pulsa Calcular. Se mostrará la nota media y si está aprobado o no. Si la media es menor a 5, se mostrará NO APROBADO en rojo."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#F57C00"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/txtPrimerTrimestre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nota Primer Trimestre"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:backgroundTint="#FFB300"
+        app:layout_constraintTop_toBottomOf="@id/tvDescripcion5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/txtSegundoTrimestre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nota Segundo Trimestre"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:backgroundTint="#FFB300"
+        app:layout_constraintTop_toBottomOf="@id/txtPrimerTrimestre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/txtTercerTrimestre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nota Tercer Trimestre"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:backgroundTint="#FFB300"
+        app:layout_constraintTop_toBottomOf="@id/txtSegundoTrimestre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textColor="#FFF"
+        android:backgroundTint="#F57C00"
+        app:layout_constraintTop_toBottomOf="@id/txtTercerTrimestre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/lblNotaFinal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nota final:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/btnCalcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/lblNotaFinal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú"
+        android:textColor="#FFF"
+        android:backgroundTint="#607D8B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
