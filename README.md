@@ -26,7 +26,9 @@ Proyecto Móvil Java
 ### Ejercicio 10
 
 
+##
 ## REQUISITOS TECNICOS 
+Minimo SDK - Android 8.0 o superior
 
-
+##
 ## OBSERVACIONES
