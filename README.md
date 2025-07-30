@@ -1,5 +1,7 @@
 <h1 align="center"> ANDROID SKILLS PORTFOLIO </h1> 
 
+<h1 align="center"> <img width="300" height="750" alt="Captura de pantalla 2025-07-30 003736" src="https://github.com/user-attachments/assets/f3db362d-da07-461c-a87c-6d2a14c13df9" /></h1>
+
 ## EQUIPO 
 
 ### 👥 Integrantes:
