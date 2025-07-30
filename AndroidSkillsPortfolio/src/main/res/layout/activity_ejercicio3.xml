@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1"
+    android:padding="24dp"
+    tools:context=".Ejercicio3Activity">
+
+    <!-- Descripción -->
+    <TextView
+        android:id="@+id/tvDescripcion10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 3: Selecciona uno o más deportes y pulsa Mostrar. Usa Volver al Menú para regresar."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#0288D1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- CheckBoxes -->
+    <CheckBox
+        android:id="@+id/chkFutbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fútbol"
+        app:layout_constraintTop_toBottomOf="@id/tvDescripcion10"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/chkBasquetbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Básquetbol"
+        app:layout_constraintTop_toBottomOf="@id/chkFutbol"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/chkNatacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natación"
+        app:layout_constraintTop_toBottomOf="@id/chkBasquetbol"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botón Mostrar -->
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar"
+        android:textColor="#FFF"
+        android:backgroundTint="#0288D1"
+        app:layout_constraintTop_toBottomOf="@id/chkNatacion"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Resultado -->
+    <TextView
+        android:id="@+id/lblSeleccion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Esperando selección..."
+        android:textSize="16sp"
+        android:textColor="#0288D1"
+        android:background="#E1F5FE"
+        android:padding="12dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/btnMostrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón Volver -->
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú"
+        android:textColor="#FFF"
+        android:backgroundTint="#607D8B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

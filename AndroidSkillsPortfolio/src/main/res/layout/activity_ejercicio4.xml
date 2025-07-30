@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Este ejercicio permite seleccionar un método de pago entre Efectivo, Tarjeta o Transferencia y confirmar la selección."
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp" />
+
+        <RadioGroup
+            android:id="@+id/groupPagos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbtnEfectivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Efectivo"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/rbtnTarjeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tarjeta" />
+
+            <RadioButton
+                android:id="@+id/rbtnTransferencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transferencia" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al menú" />
+
+
+        <TextView
+            android:id="@+id/lblSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperando selección"
+            android:textSize="16sp"
+            android:paddingTop="20dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+</ScrollView>

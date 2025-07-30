@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Ejercicio 1 -->
+        <Button
+            android:id="@+id/btnEjercicio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 1"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#03DAC5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 2 -->
+        <Button
+            android:id="@+id/btnEjercicio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 2"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 3 -->
+        <Button
+            android:id="@+id/btnEjercicio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 3"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF9800"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 4 -->
+        <Button
+            android:id="@+id/btnEjercicio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 4"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 5 -->
+        <Button
+            android:id="@+id/btnEjercicio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 5"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#03A9F4"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 6 -->
+        <Button
+            android:id="@+id/btnEjercicio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 6"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E91E63"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 7 -->
+        <Button
+            android:id="@+id/btnEjercicio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 7"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#9C27B0"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 8 -->
+        <Button
+            android:id="@+id/btnEjercicio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 8"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFC107"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 9 -->
+        <Button
+            android:id="@+id/btnEjercicio9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 9"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#009688"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Ejercicio 10 -->
+        <Button
+            android:id="@+id/btnEjercicio10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 10"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF5722"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Botón Cerrar sesión -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión"
+            android:textColor="#FFF"
+            android:backgroundTint="#B00020"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintTop_toBottomOf="@id/btnEjercicio10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
