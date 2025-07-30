@@ -32,6 +32,7 @@ Diseñado en Android Studio
 | Ejercicio 9  | Mueve la barra para seleccionar un valor entre 50 y 150. El valor se muestra en tiempo real. | <img width="100" height="250" alt="Captura de pantalla 2025-07-29 234452" src="https://github.com/user-attachments/assets/0498176b-cfc7-4c37-a87c-30a3afa6080e" />|
 | Ejercicio 10 | Permite ingreesar nombre y ciudad para generar un texto personalizado. Puede activar y desactivar los campos de texto. | <img width="100" height="250" alt="Captura de pantalla 2025-07-29 234525" src="https://github.com/user-attachments/assets/a4a2119a-4751-4e82-8d98-f1324f3418e6" />|
 
+> [!NOTE]
 > Todas las actividades permiten volver al menú principal mediante un botón.
 
 ##
