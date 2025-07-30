@@ -67,7 +67,7 @@ Si el proyecto no abre bien, hay que borrar la carpeta ```.idea``` y los archivo
 Hay que asegurarse de tener el JDK y el SDK de Android actualizados.
 
 ## 
-## CRDITOS
+## CRÉDITOS
 
 <div align="center">
 <table>
